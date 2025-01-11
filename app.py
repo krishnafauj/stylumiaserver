@@ -95,7 +95,7 @@ def insert_data_to_db(data):
     except Exception as e:
         print("Error inserting data into the database:", e)
 @app.route('/')
-def home()
+def home():
     return "Welcome to the API!"
 # GET endpoint
 @app.route('/api/get', methods=['GET'])
